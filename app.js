@@ -4,7 +4,7 @@ const body_parser = require('body-parser');
 //body parser used for conver JSON format to js
 const app = express();
 const port = 3500;
-const DB_URL = "mongodb+srv://Danilka:1234@mernapp.vxnt5l1.mongodb.net/?retryWrites=true&w=majority";
+const DB_URL = "mongodb+srv://<username>:<password>@mernapp.vxnt5l1.mongodb.net/?retryWrites=true&w=majority";
 //import routes
 const postRoutes = require('./routes/posts');
 
